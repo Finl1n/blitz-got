@@ -1,7 +1,7 @@
 /* ============ CONFIGURAÇÃO — ajuste aqui ============ */
 const CONFIG = {
   // Webhook do n8n. Teste = /webhook-test/ · Produção = /webhook/
-  webhookUrl: 'https://n8n.srv1339289.hstgr.cloud/webhook-test/lp-acao-vendas',
+  webhookUrl:  webhookUrl: 'https://n8n.srv1339289.hstgr.cloud/webhook/lp-acao-vendas',
   // Número da Suri (DDI 55 + DDD + número)
   whatsapp: '5571900000000',
   // Início do evento (horário de Salvador)
