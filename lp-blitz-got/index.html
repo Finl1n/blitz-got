@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blitz GOT — Negociação exclusiva para seu negócio</title>
+<meta name="description" content="Faça sua análise de crédito gratuita e sem compromisso antes da Blitz GOT, evento de máquinas em 23 de outubro, às 9h.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Blitz GOT · 23/10 · 9h</span><span>Condições exclusivas do evento</span><span>Máquinas</span><span>Presencial e online</span><span>Blitz GOT · 23/10 · 9h</span><span>Condições exclusivas do evento</span><span>Máquinas</span><span>Presencial e online</span>
+    <span>Blitz GOT · 23/10 · 9h</span><span>Condições exclusivas do evento</span><span>Máquinas</span><span>Presencial e online</span><span>Blitz GOT · 23/10 · 9h</span><span>Condições exclusivas do evento</span><span>Máquinas</span><span>Presencial e online</span>
+  </div>
+</div>
+
+<div class="header-bar">
+  <header class="wrap header">
+    <a class="logo" href="#" aria-label="Gotemburgo — início"><img src="img/gotemburgo-branco.png" alt="Gotemburgo" width="176" height="28"></a>
+    <a class="btn btn-sun" href="#formulario">Cadastrar-se</a>
+  </header>
+</div>
+
+<main>
+<section class="hero">
+  <img class="hero-bg" src="img/hero-ec360.jpg" alt="" aria-hidden="true">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <div class="hero-intro">
+        <div class="kicker">Blitz GOT · Máquinas</div>
+        <h1 class="display">Negociação <em>exclusiva</em> para seu negócio.</h1>
+        <p class="hero-sub">Faça sua análise gratuita e receba condições exclusivas durante a Blitz GOT.</p>
+      </div>
+
+      <div class="event-row">
+        <div class="event-date">
+          <span class="lbl">Blitz GOT · Presencial e online</span>
+          <span class="big">Sexta, <span>23/10</span> · 9h</span>
+        </div>
+        <a class="event-place" href="https://www.google.com/maps/search/?api=1&amp;query=Gotemburgo+Recife+Rodovia+BR+101+Sul+Km+92+Muribeca+Prazeres+Jaboat%C3%A3o+dos+Guararapes+PE" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span><strong>Gotemburgo Recife</strong>Rodovia BR 101 Sul, Km 92 - Muribeca/Prazeres, Jaboatão dos Guararapes - PE</span></a>
+        <div id="countdown">
+          <div class="timer" aria-label="Contagem regressiva para o evento">
+            <div><b id="t-d">00</b><span>dias</span></div>
+            <div><b id="t-h">00</b><span>horas</span></div>
+            <div><b id="t-m">00</b><span>min</span></div>
+            <div><b id="t-s">00</b><span>seg</span></div>
+          </div>
+        </div>
+        <div class="live-now" id="live-now" hidden>O evento já começou. Faça sua análise e fale com um consultor hoje.</div>
+      </div>
+    </div>
+
+    <div class="hero-form" id="formulario">
+      <div class="form-top"></div>
+      <div class="form-head" id="form-head">
+        <div class="t">Cadastre-se</div>
+        <div class="d">Em breve, um de nossos consultores irá entrar em contato.</div>
+      </div>
+      <form id="lead-form" novalidate>
+        <label class="field">Nome*
+          <input name="nome" type="text" autocomplete="name" required>
+          <small></small>
+        </label>
+        <label class="field">Telefone*
+          <input name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(81) 9 0000-0000" required>
+          <small></small>
+        </label>
+        <label class="field">E-mail
+          <input name="email" type="email" autocomplete="email">
+          <small></small>
+        </label>
+        <fieldset class="prazo" id="prazo">
+          <legend>Como prefere que a gente entre em contato?*</legend>
+          <div class="prazo-grid pref-grid">
+            <label><input type="radio" name="contato" value="whatsapp" required><span>WhatsApp</span></label>
+            <label><input type="radio" name="contato" value="ligacao"><span>Ligação</span></label>
+            <label><input type="radio" name="contato" value="email"><span>E-mail</span></label>
+          </div>
+          <small class="prazo-err"></small>
+        </fieldset>
+        <!-- honeypot anti-spam: humanos não veem -->
+        <div class="hp" aria-hidden="true"><label>Site <input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+        <div class="no-obligation">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+          <span><strong>Sem custo e sem compromisso.</strong> A análise de crédito não obriga você a comprar nada.</span>
+        </div>
+        <label class="check">
+          <input name="consentimento" type="checkbox" required>
+          <span>Autorizo o contato de um consultor por WhatsApp, telefone ou e-mail para a análise de crédito e o evento. <a href="[URL-POLITICA-PRIVACIDADE]" target="_blank" rel="noopener">Política de privacidade</a></span>
+        </label>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+        <button class="btn btn-ink" type="submit" id="submit-btn">Quero minha análise de crédito</button>
+      </form>
+      <div class="thanks" id="thanks" hidden tabindex="-1">
+        <div class="t">Pedido recebido!</div>
+        <div class="d">Um consultor vai entrar em contato pelo canal que você escolheu para dar sequência à análise de crédito. Lembrando: a análise não gera nenhuma obrigação de compra.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how">
+  <div class="wrap section how-grid">
+    <div class="how-copy">
+      <div class="section-head reveal">
+        <div class="kicker">Como funciona</div>
+        <h2 class="display">Três passos. Nenhum compromisso.</h2>
+      </div>
+      <div class="steps reveal">
+        <div class="step"><b>01</b><div><div class="t">Preencha o formulário</div><div class="d">Nome, telefone e como prefere ser contatado. Menos de um minuto.</div></div></div>
+        <div class="step"><b>02</b><div><div class="t">Fale com o consultor</div><div class="d">O consultor entra em contato pelo canal que você escolheu e informa os documentos para a análise.</div></div></div>
+        <div class="step"><b>03</b><div><div class="t">Receba o resultado</div><div class="d">Você conhece seu crédito e recebe o convite para a Blitz GOT. Comprar ou não é escolha sua.</div></div></div>
+      </div>
+    </div>
+    <div class="reels reveal">
+      <video id="reels-video" src="video/reels.mp4" poster="img/reels-capa.jpg" playsinline muted loop autoplay preload="metadata"></video>
+      <button class="reels-sound" type="button" id="reels-sound" aria-pressed="false">
+        <svg class="ic-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+        <svg class="ic-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+        <span>Ativar som</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section-head reveal">
+    <div class="kicker">Dúvidas</div>
+    <h2 class="display">Perguntas frequentes</h2>
+  </div>
+  <div class="faq reveal">
+    <details open>
+      <summary>Fazer a análise me obriga a comprar?</summary>
+      <p>Não. A análise de crédito é gratuita e não obriga você a comprar. Você faz a análise e decide com calma.</p>
+    </details>
+    <details>
+      <summary>Como vou ser atendido?</summary>
+      <p>Do jeito que você preferir: WhatsApp, ligação ou e-mail. Consultores de todo o Brasil estão disponíveis para te atender, online ou presencialmente, no horário que fizer mais sentido para você.</p>
+    </details>
+    <details>
+      <summary>Até quando valem as condições?</summary>
+      <p>As condições comerciais diferenciadas são válidas SOMENTE no dia 23/10, durante a Blitz GOT.</p>
+    </details>
+    <details>
+      <summary>Onde e quando acontece a Blitz GOT?</summary>
+      <p>Sexta-feira, 23/10, a partir das 9h, na <a href="https://www.google.com/maps/search/?api=1&amp;query=Gotemburgo+Recife+Rodovia+BR+101+Sul+Km+92+Muribeca+Prazeres+Jaboat%C3%A3o+dos+Guararapes+PE" target="_blank" rel="noopener">Gotemburgo Recife — Rodovia BR 101 Sul, Km 92, Muribeca/Prazeres, Jaboatão dos Guararapes - PE</a>.</p>
+    </details>
+    <details>
+      <summary>E se eu não puder ir presencialmente?</summary>
+      <p>Você pode participar online e negociar com seu consultor do mesmo jeito.</p>
+    </details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap final-inner">
+    <div class="reveal">
+      <h2 class="display">Garanta negociações exclusivas na Blitz GOT.</h2>
+      <p>Gratuito, rápido e sem obrigação de compra.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:12px">
+      <a class="btn btn-ink" href="#formulario">Cadastrar-se</a>
+      <a class="btn btn-ink js-wa" href="#" data-msg="Olá! Quero fazer a análise de crédito para a Blitz GOT." style="background:transparent;color:var(--ink);border-color:var(--ink)">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20l1.3-5.1A8.5 8.5 0 1 1 21 11.5z"/></svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span class="logo"><img src="img/got-branco.png" alt="GOT" width="104" height="40"></span>
+    <span><a href="https://www.google.com/maps/search/?api=1&amp;query=Gotemburgo+Recife+Rodovia+BR+101+Sul+Km+92+Muribeca+Prazeres+Jaboat%C3%A3o+dos+Guararapes+PE" target="_blank" rel="noopener" style="color:#fff">Gotemburgo Recife — Rodovia BR 101 Sul, Km 92 - Muribeca/Prazeres, Jaboatão dos Guararapes - PE</a> · Crédito sujeito a análise e aprovação. A análise não gera obrigação de compra.</span>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="#" data-msg="Olá! Quero fazer a análise de crédito para a Blitz GOT." aria-label="Chamar no WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20l1.3-5.1A8.5 8.5 0 1 1 21 11.5z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
