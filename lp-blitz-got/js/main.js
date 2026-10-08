@@ -1,7 +1,8 @@
+document.documentElement.classList.add('js');
 /* ============ CONFIGURAÇÃO — ajuste aqui ============ */
 const CONFIG = {
   // Webhook do n8n. Teste = /webhook-test/ · Produção = /webhook/
-  webhookUrl:  webhookUrl: 'https://n8n.srv1339289.hstgr.cloud/webhook/lp-acao-vendas',
+  webhookUrl: 'https://n8n.srv1339289.hstgr.cloud/webhook/lp-acao-vendas',
   // Número da Suri (DDI 55 + DDD + número)
   whatsapp: '5571900000000',
   // Início do evento (horário de Salvador)
@@ -25,6 +26,8 @@ document.querySelectorAll('.js-wa').forEach(a => { a.href = waLink(a.dataset.msg
 // Entrada suave das seções
 const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15 }) : null;
 document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
+// garantia: se algo falhar, mostra tudo depois de 1,5s
+setTimeout(() => document.querySelectorAll('.reveal').forEach(el => el.classList.add('in')), 1500);
 
 
 // Reels: som e pausa fora da tela
